@@ -62,6 +62,6 @@ Save FAISS index<br>
 streamlit run app.py
 
 Open:
-http://localhost:8501 
+http://localhost:8501
 Ask Game of Thrones related questions 🎯
 
