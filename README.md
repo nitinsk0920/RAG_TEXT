@@ -5,28 +5,28 @@ This project answers questions from a Game of Thrones text document (got.txt) us
 
 ## 🚀 Features
 Loads custom .txt document<br>
-Splits text using RecursiveCharacterTextSplitter
-Creates embeddings using sentence-transformers/all-MiniLM-L6-v2
-Stores embeddings in FAISS vector database
-Uses Hugging Face LLM (Qwen/Qwen3-Coder-Next-FP8)
-Interactive Streamlit UI
-Persistent FAISS index storage
+Splits text using RecursiveCharacterTextSplitter<br>
+Creates embeddings using sentence-transformers/all-MiniLM-L6-v2<br>
+Stores embeddings in FAISS vector database <br>
+Uses Hugging Face LLM (Qwen/Qwen3-Coder-Next-FP8) <br>
+Interactive Streamlit UI<br>
+Persistent FAISS index storage<br>
 
 ## 🏗️ Tech Stack
-Python
-LangChain
-FAISS
-Hugging Face Hub
-Sentence Transformers
-Streamlit
-dotenv
+Python<br>
+LangChain<br>
+FAISS<br>
+Hugging Face Hub<br>
+Sentence Transformers<br>
+Streamlit<br>
+dotenv<br>
 
 
 
 
 # ⚙️ Setup Instructions
 ## 1️⃣ Clone Repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git<br>
 cd your-repo-name
 
 ## 2️⃣ Create Virtual Environment
@@ -40,7 +40,7 @@ Mac/Linux:
 source venv/bin/activate
 
 ## 3️⃣ Install Dependencies
-pip install langchain langchain-community langchain-core langchain-huggingface faiss-cpu sentence-transformers streamlit python-dotenv
+pip install langchain langchain-community langchain-core langchain-huggingface faiss-cpu sentence-transformers streamlit python-dotenv<br>
 pip install requirements.txt
 
 ## 4️⃣ Add Hugging Face API Token
@@ -52,11 +52,11 @@ HUGGINGFACEHUB_API_TOKEN=your_token_here
 Run:
 python create_index.py
 
-This will:
-Load got.txt
-Split into chunks
-Generate embeddings
-Save FAISS index
+This will:<br>
+Load got.txt<br>
+Split into chunks<br>
+Generate embeddings<br>
+Save FAISS index<br>
 
 ## 💬 Run the Chatbot
 streamlit run app.py
