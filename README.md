@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built using LangChain, FAISS, Hug
 This project answers questions from a Game of Thrones text document (got.txt) using semantic search and an LLM.
 
 ## 🚀 Features
-Loads custom .txt document
+Loads custom .txt document<br>
 Splits text using RecursiveCharacterTextSplitter
 Creates embeddings using sentence-transformers/all-MiniLM-L6-v2
 Stores embeddings in FAISS vector database
