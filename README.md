@@ -1,4 +1,4 @@
-#🐉 Game of Thrones RAG Chatbot
+# 🐉 Game of Thrones RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot built using LangChain, FAISS, Hugging Face Embeddings, and Streamlit.
 This project answers questions from a Game of Thrones text document (got.txt) using semantic search and an LLM.
