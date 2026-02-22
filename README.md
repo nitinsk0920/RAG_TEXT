@@ -41,7 +41,7 @@ source venv/bin/activate
 
 ## 3️⃣ Install Dependencies
 pip install langchain langchain-community langchain-core langchain-huggingface faiss-cpu sentence-transformers streamlit python-dotenv<br>
-pip install requirements.txt
+pip install -r requirements.txt
 
 ## 4️⃣ Add Hugging Face API Token
 Create .env file:
